@@ -1,24 +1,18 @@
-# Communication Tracking App
+# Calendar Application for Communication Tracking
 
-## Project Description
-
-The **Communication Tracking App** is designed to help users manage and track their communication activities efficiently. Whether you're managing a team, coordinating with clients, or simply keeping track of personal communications, this app provides an intuitive interface and powerful features to keep you organized.
+## Project Description 
+The Calendar Application for Communication Tracking is designed to help users manage and track their communication activities efficiently. Whether you're managing a team, coordinating with clients, or simply keeping track of personal communications, this app provides an intuitive interface and powerful features to keep you organized
 
 ## Features
+- User Management: Create, edit, and delete user profiles. 
+- Communication Methods: Add and manage various communication methods like email, phone, and chat. 
+- Reports: Generate detailed reports on communication frequency and effectiveness. 
+- Notifications: Receive notifications for important communication activities. 
+- Dashboard: View a summary of all communication activities in one place.
 
-- **User Management**: Create, edit, and delete user profiles.
-- **Communication Methods**: Add and manage various communication methods like email, phone, and chat.
-- **Reports**: Generate detailed reports on communication frequency and effectiveness.
-- **Notifications**: Receive notifications for important communication activities.
-- **Dashboard**: View a summary of all communication activities in one place.
-
-## Installation and Setup
-
-To get started with the Communication Tracking App, follow these steps:
-
-### Prerequisites
-
-- **Node.js**: Ensure you have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
+## Installation and Setup 
+### Prerequisites 
+- Node.js: Ensure you have Node.js installed. You can download it from the [Node.js official website](https://nodejs.org/).
 
 ### Installation
 
