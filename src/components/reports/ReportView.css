@@ -1,0 +1,80 @@
+.report-view {
+    padding: 20px;
+  }
+  
+  .report-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .report-filters label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-filters input, 
+  .report-filters select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .report-filters input:hover, 
+  .report-filters select:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+  }
+  
+  .report-filters button {
+    padding: 8px 16px;
+    margin-top: 25px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .report-filters button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .report-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .report-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .report-item:hover {
+    background-color: #e6f7ff;
+    transform: scale(1.02);
+  }
+  
+  .report-item h3 {
+    margin-top: 0;
+  }
+  
+  .report-item p {
+    margin-bottom: 0;
+  }
+  
+  .report-item small {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+  }
+  

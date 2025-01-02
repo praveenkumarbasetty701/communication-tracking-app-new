@@ -1,0 +1,102 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent any scroll overflow issues */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+}
+
+.header h1,
+.header p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row; /* Adjust to horizontal layout */
+  margin-top: 80px; /* This value matches the header's height */
+  width: 100%;
+  overflow: hidden; /* Ensure no overflow happens */
+}
+
+.sidebar {
+  width: 200px; /* Adjusted width */
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 80px; /* Starts just below the header */
+  height: calc(100vh - 80px); /* Ensure it fits below the header */
+  display: flex;
+  flex-direction: column;
+  z-index: 900;
+}
+
+.sidebar-menu {
+  width: 100%;
+  list-style: none;
+  padding: 20px 0; /* Added padding */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Added gap between items */
+}
+
+.sidebar-item {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center align items */
+}
+
+.nav-button {
+  width: 70%; /* 70% width for buttons */
+  padding: 20px; /* Updated padding */
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker blue for hover */
+}
+
+.sidebar-icon {
+  font-size: 1.5em;
+}
+
+.content {
+  margin-left: 200px; /* Adjusted for sidebar width */
+  padding: 20px;
+  width: calc(100% - 200px);
+  z-index: 800; /* Ensure the content stays above the sidebar */
+  overflow-y: auto; /* Allow content to scroll if it overflows */
+}

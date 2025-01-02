@@ -1,0 +1,38 @@
+.communication-frequency-report {
+    padding: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filters input, 
+  .filters select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .filters input:hover, 
+  .filters select:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+  }
+  
+  .chart-container {
+    transition: transform 0.3s;
+  }
+  
+  .chart-container:hover {
+    transform: scale(1.02);
+  }
+  

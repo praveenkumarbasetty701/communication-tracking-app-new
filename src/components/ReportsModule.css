@@ -1,0 +1,48 @@
+.report-container {
+  max-height: 80vh; /* Adjust the height as needed */
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.report-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.report-button {
+  width: 220px; /* Adjusted to accommodate icons */
+  padding: 12px;
+  margin: 0;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(37, 99, 235);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.report-button:hover {
+  background-color: #0056b3; /* Darker shade of blue for hover effect */
+  transform: scale(1.05);
+}
+
+.report-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.button-icon {
+  margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+.module-content {
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Ensure text is readable against the background color */
+    min-height: 100vh; /* Ensure it covers the entire viewport height */
+  }
+  
+  .module-content h2 {
+    margin-top: 0;
+    color: #000; /* Ensure text is readable */
+  }
+  
+  .module-content p {
+    color: #000; /* Ensure text is readable */
+  }
+  
+  .module-input {
+    margin-bottom: 20px;
+  }
+  
+  .module-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .module-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .module-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .module-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .module-list li {
+    padding: 10px;
+    background-color: #ffffff; /* White background for items */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .module-list li input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .module-list li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5px;
+  }
+  
+  .module-list li button:hover {
+    background-color: #0056b3;
+  }
+  
