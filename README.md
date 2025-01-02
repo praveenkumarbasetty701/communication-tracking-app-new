@@ -1,75 +1,128 @@
- HEAD
-# communication-tracking-app-new
-The Communication Tracking App helps organizations manage and monitor their communications effectively. It supports recording, organizing, and analyzing communication events like emails, calls, and LinkedIn posts. Built with React and Firebase, the app offers a user-friendly interface and comprehensive reporting.
-=======
-# Getting Started with Create React App
+# Communication Tracking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+The **Communication Tracking App** is designed to help users manage and track their communication activities efficiently. Whether you're managing a team, coordinating with clients, or simply keeping track of personal communications, this app provides an intuitive interface and powerful features to keep you organized.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Management**: Create, edit, and delete user profiles.
+- **Communication Methods**: Add and manage various communication methods like email, phone, and chat.
+- **Reports**: Generate detailed reports on communication frequency and effectiveness.
+- **Notifications**: Receive notifications for important communication activities.
+- **Dashboard**: View a summary of all communication activities in one place.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with the Communication Tracking App, follow these steps:
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js**: Ensure you have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/praveenkumarbasetty701/communication-tracking-app-new.git
+   cd communication-tracking-app-new
+2. **Install Dependencies**:
+npm install
+3. **Run the App**:
+npm start
+## Setup 
+1. **Environment Variables**:
+Create a .env file in the root directory.
+Add the following environment variables:
+REACT_APP_API_KEY=your-api-key
+REACT_APP_AUTH_DOMAIN=your-auth-domain
+REACT_APP_PROJECT_ID=your-project-id
+REACT_APP_STORAGE_BUCKET=your-storage-bucket
+REACT_APP_MESSAGING_SENDER_ID=your-messaging-sender-id
+REACT_APP_APP_ID=your-app-id
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Firebase Configuration**:
+Ensure you have a Firebase project set up.
+Update the firebase.js file with your Firebase configuration.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. **User Login**:
+Navigate to the login page and enter your credentials to log in.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Dashboard**:
+View a summary of all your communication activities on the dashboard.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Add Communication Method**:
+Go to the communication methods section and add a new method (e.g., email, phone).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Generate Reports**:
+Navigate to the reports section and generate detailed reports on your communication activities.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+### Figure 1: Dashboard
+![Dashboard Screenshot](screenshots/Dashboard.png)
+*Figure 1: Dashboard*
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Figure 2: Add Communication Method
+![Add Communication Method Screenshot](screenshots/CommunicationManagement.png)
+*Figure 2: Add Communication Method*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Figure 3: User Management
+![User Management Screenshot](screenshots/UserModule.png)
+*Figure 3: User Management*
 
-### Code Splitting
+### Figure 4: Admin Module
+![Admin Module Screenshot](screenshots/AdminModule.png)
+*Figure 4: Admin Module*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Figure 5: Calendar View
+![Calendar View Screenshot](screenshots/CalendarView.png)
+*Figure 5: Calendar View*
 
-### Analyzing the Bundle Size
+### Figure 6: Communication Frequency
+![Communication Frequency Screenshot](screenshots/CommunicationFrequency.png)
+*Figure 6: Communication Frequency*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Figure 7: Company Management
+![Company Management Screenshot](screenshots/CompanyManagement.png)
+*Figure 7: Company Management*
 
-### Making a Progressive Web App
+### Figure 8: Log Communication
+![Log Communication Screenshot](screenshots/LogCommunication.png)
+*Figure 8: Log Communication*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Figure 9: Notification
+![Notification Screenshot](screenshots/Notification.png)
+*Figure 9: Notification*
 
-### Advanced Configuration
+### Figure 10: Reports Module
+![Reports Module Screenshot](screenshots/ReportsModule.png)
+*Figure 10: Reports Module*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Figure 11: View Reports
+![View Reports Screenshot](screenshots/ViewReports.png)
+*Figure 11: View Reports*
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Dependencies
+The Communication Tracking App relies on the following dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
- master
+1. React: A JavaScript library for building user interfaces.
+
+2. Firebase: A platform developed by Google for creating mobile and web applications.
+
+3. React Router: A standard library for routing in React.
+
+4. Axios: A promise-based HTTP client for the browser and Node.js.
+
+**To install all dependencies, simply run**:
+npm install
+
+## Contributing
+We welcome contributions! Please see our CONTRIBUTING.md for details on how to get started.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.       
