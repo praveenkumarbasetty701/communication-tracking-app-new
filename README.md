@@ -15,11 +15,11 @@ The Calendar Application for Communication Tracking is designed to help users ma
 
 To get started with the Communication Tracking App, follow these steps:
 
-### Prerequisites
+## Prerequisites
 
 - **Node.js**: Ensure you have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
 
-### Installation
+## Installation
 
 1. **Clone the Repository**:
    ```bash
