@@ -1,6 +1,7 @@
 ## Calendar Application for Communication Tracking
 
-## Project Description The Calendar Application for Communication Tracking is designed to help users manage and track their communication activities efficiently. Whether you're managing a team, coordinating with clients, or simply keeping track of personal communications, this app provides an intuitive interface and powerful features to keep you organized. 
+## Project Description 
+The Calendar Application for Communication Tracking is designed to help users manage and track their communication activities efficiently. Whether you're managing a team, coordinating with clients, or simply keeping track of personal communications, this app provides an intuitive interface and powerful features to keep you organized. 
 ## Features 
 - User Management: Create, edit, and delete user profiles.
 - Communication Methods: Add and manage various communication methods like email, phone, and chat. - Reports: Generate detailed reports on communication frequency and effectiveness.
