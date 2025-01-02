@@ -1,0 +1,178 @@
+.company-management {
+  padding: 20px;
+}
+
+.company-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+.company-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: color 0.3s;
+}
+
+.company-form label:hover {
+  color: #0056b3;
+}
+
+.company-form input {
+  padding: 6px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.company-form input:hover {
+  border-color: #0056b3;
+}
+
+.company-form .mandatory {
+  color: red;
+}
+
+.company-form .error {
+  color: red;
+  font-size: 0.875em;
+}
+
+.add-company-button {
+  grid-column: span 2;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-company-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.companies-list {
+  margin-top: 20px;
+  max-height: 40vh; /* Adjust the height as needed */
+  overflow-y: auto; /* Ensure scrollbar is visible */
+}
+
+.companies-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.companies-header div {
+  text-align: center;
+}
+
+.companies-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.companies-list li {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.companies-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.companies-list li div {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.companies-list .actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.companies-list button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.companies-list button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .company-form {
+    grid-template-columns: 1fr; /* Stack form elements vertically on smaller screens */
+  }
+
+  .companies-header, .companies-list li {
+    grid-template-columns: 1fr; /* Stack list items vertically on smaller screens */
+  }
+
+  .companies-header div, .companies-list li div {
+    text-align: left; /* Align text to the left on smaller screens */
+    margin-bottom: 5px; /* Add some space between items */
+  }
+
+  .companies-list .actions {
+    justify-content: flex-start; /* Align action buttons to the left on smaller screens */
+  }
+
+  .companies-list button {
+    width: 100%; /* Make buttons full-width on smaller screens */
+    margin-top: 5px; /* Add space between buttons */
+  }
+}

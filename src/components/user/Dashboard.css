@@ -1,0 +1,46 @@
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dashboard-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .dashboard-table tr.due {
+    background-color: yellow;
+  }
+  
+  .dashboard-table tr.overdue {
+    background-color: red;
+    color: white;
+  }
+  
+  .dashboard-table tr.upcoming {
+    background-color: green;
+    color: white;
+  }
+  
+  .dashboard-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1000;
+    margin-left: 15px;
+  }
+  
