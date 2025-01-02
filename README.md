@@ -125,4 +125,4 @@ npm install
 We welcome contributions! Please see our CONTRIBUTING.md for details on how to get started.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.     
+This project is licensed under the MIT License - see the LICENSE file for details.       
